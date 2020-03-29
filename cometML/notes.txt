@@ -1,0 +1,14 @@
+Installation: https://www.comet.ml/docs/python-sdk/advanced/#installation
+Tutorials: https://www.comet.ml/docs/python-sdk/tutorial-overview/
+Tutorials: https://www.comet.ml/docs/python-sdk/getting-started/
+Hyperparameter Optimization: https://www.comet.ml/docs/python-sdk/introduction-optimizer/
+
+use with keras: https://github.com/comet-ml/comet-examples/blob/master/notebooks/keras.ipynb
+
+
+
+The core class of Comet.ml is an Experiment, a specific run of a script that generated a result such as training a model on a single set of hyperparameters.
+An Experiment. will automatically log scripts output (stdout/stderr), code, and command line arguments on any script and for the supported libraries will also log hyperparameters, metrics and model configuration.
+
+The Comet Optimizer is used to dynamically find the best set of hyperparameter values that will minimize or maximize a particular metric.
+It can make suggestions for what hyperparameter values to try next, either in serial or in parallel (or a combination).

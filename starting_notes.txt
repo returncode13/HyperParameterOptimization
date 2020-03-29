@@ -1,0 +1,5 @@
+Bayesian Optimization blogs:
+blog1 - https://www.wandb.com/articles/bayesian-hyperparameter-optimization-a-primer
+blog2 - https://towardsdatascience.com/a-conceptual-explanation-of-bayesian-model-based-hyperparameter-optimization-for-machine-learning-b8172278050f
+
+Sklearns cross validation: https://scikit-learn.org/stable/modules/cross_validation.html

@@ -1,0 +1,17 @@
+https://sigopt.com/
+https://app.sigopt.com/docs/overview/python
+
+What is SigOpt:
+SigOpt is an ensemble of Bayesian Optimization techniques, which finds a natural use case in hyperparameter tuning
+
+Basics:
+Experiment: https://app.sigopt.com/docs/overview/create
+Optimization Loop: https://app.sigopt.com/docs/overview/create
+
+Choosing the objectice metric:
+This is a crucially important step, as an improperly formed objective can lead to improperly formed models
+
+Metrics-1: https://app.sigopt.com/docs/overview/picking_a_metric
+Metrics-2: https://app.sigopt.com/docs/overview/hyperparameters
+
+Parallel Execution: https://app.sigopt.com/docs/overview/parallel
