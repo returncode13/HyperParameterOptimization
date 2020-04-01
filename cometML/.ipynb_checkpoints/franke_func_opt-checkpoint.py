@@ -8,7 +8,9 @@ def fit(x,y):
    
 
 
-opt=Optimizer(sys.argv[1],api_key="6krXLYdn4mMFKPsF8jwrFwXtu",workspace="returncode13",project_name="franke-function-opt-distributed-01")
+#opt=Optimizer(sys.argv[1],api_key="6krXLYdn4mMFKPsF8jwrFwXtu",workspace="returncode13",project_name="franke-function-opt-distributed-01")
+
+opt=Optimizer(sys.argv[1],workspace="returncode13",project_name="franke-function-opt-distributed-02")
 
 for experiment in opt.get_experiments():
     val=fit(experiment.get_parameter('x'),experiment.get_parameter('y'))
